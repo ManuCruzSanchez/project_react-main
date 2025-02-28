@@ -51,7 +51,7 @@ function EventCalendar() {
   };
 
   return (
-    <div className='Calendar-code'>
+    <div className='calendar-code'>
       <div className='calendar'>
         <Calendar
           onChange={handleDateClick}
