@@ -10,7 +10,7 @@ function EventCalendar() {
 
   // Fechas y descripciones de los eventos
   const events = {
-    '2025-02-28': 'Evento 1',
+    '2025-02-28': 'Evento 1 de prueba ahi de puta madre socio deluxe defenitive edition new Funky mode & knuckles',
     '2025-04-10': 'Evento 2',
     '2025-03-20': 'Evento 3'
   };
@@ -51,26 +51,30 @@ function EventCalendar() {
   };
 
   return (
-    <div className='Calendar'>
-      <Calendar 
-        onChange={handleDateClick} 
-        value={value} 
-        tileClassName={tileClassName}
-        tileContent={({ date, view }) => (
-          view === 'month' && events[date.toISOString().split('T')[0]] ? (
-            <div
-              onMouseEnter={() => handleDateHover(date)}
-              onMouseLeave={() => setHoveredEvent('')}
-            />
-          ) : null
+    <div className='Calendar-code'>
+      <div className='calendar'>
+        <Calendar
+          onChange={handleDateClick}
+          value={value}
+          tileClassName={tileClassName}
+          tileContent={({ date, view }) => (
+            view === 'month' && events[date.toISOString().split('T')[0]] ? (
+              <div
+                onMouseEnter={() => handleDateHover(date)}
+                onMouseLeave={() => setHoveredEvent('')}
+              />
+            ) : null
+          )}
+        />
+      </div>
+      <div className='events'>
+        <h2 className='events-panel'>Eventos:</h2>
+        {eventDescription && (
+          <div className="event-description">
+            <h3>{eventDescription}</h3>
+          </div>
         )}
-      />
-      {eventDescription && (
-        <div className="event-description">
-          <h2>Descripción del evento:</h2>
-          <p>{eventDescription}</p>
-        </div>
-      )}
+      </div>
       {hoveredEvent && (
         <div className="event-hover">
           <p>{hoveredEvent}</p>
