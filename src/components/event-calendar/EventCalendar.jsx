@@ -15,6 +15,8 @@ function EventCalendar() {
     '2025-03-20': 'Evento 3'
   };
 
+  //Hola
+
   // Función para agregar clase a la fecha específica
   const tileClassName = ({ date, view }) => {
     if (view === 'month') {
