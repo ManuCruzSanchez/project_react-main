@@ -1,0 +1,38 @@
+@font-face {
+  font-family: stf;
+  src: url("../../assets/SSF4_ABUKET.otf") format("opentype");
+}
+
+header{
+
+  padding-top: 2%;
+  padding-bottom: 3%;
+  background-color: crimson;
+  display: flex;
+  flex-direction: row;
+}
+
+h1{
+  text-align: left;
+  padding-left: 6%;
+  font-family: "stf";
+  font-size: 300%;
+  letter-spacing: 15%;
+  max-width: fit-content;
+}
+header ul {
+  display: flex;
+  text-align: right;
+  width: 20vw;
+}
+header ul li{
+  list-style: none;
+  text-align: right;
+  padding:8vh 0 0 100%;
+
+}
+
+
+#MenuButton{
+  width: 50px;
+}

@@ -1,0 +1,35 @@
+{
+    "GamesList": [
+      {
+        "id": 1,
+        "nombre": "Street Fighter VI",
+        "desarrollador": "Capcom",
+        "descripcion": "-"
+      },
+      {
+        "id": 2,
+        "nombre": "Mortal Kombat 1",
+        "desarrollador": "NetherRealm Studios",
+        "descripcion": "-"
+      },
+      {
+        "id": 3,
+        "nombre": "Tekken 7",
+        "desarrollador": "Bandai Namco Entertainment",
+        "descripcion": "-"
+      },
+      {
+        "id": 4,
+        "nombre": "Dragon Ball FighterZ",
+        "desarrollador": "Arc System Works",
+        "descripcion": "-"
+      },
+      {
+        "id": 5,
+        "nombre": "Guilty Gear Strive",
+        "desarrollador": "Arc System Works",
+        "descripcion": "-"
+      }
+    ]
+  }
+  
