@@ -10,13 +10,21 @@ function EventCalendar() {
 
   // Fechas y descripciones de los eventos
   const events = {
+<<<<<<< HEAD
     '2025-02-28': 'Evento 1 de prueba ahi de puta madre socio deluxe defenitive edition new Funky mode & knuckles',
+=======
+    '2025-02-28': 'Evento 1',
+>>>>>>> 4b23862d114a2c8b6e86984f0eb136e301e878e5
     '2025-04-10': 'Evento 2',
     '2025-03-20': 'Evento 3'
   };
 
+<<<<<<< HEAD
   //Hola develop
 
+=======
+  //Hola
+>>>>>>> 4b23862d114a2c8b6e86984f0eb136e301e878e5
 
   // Función para agregar clase a la fecha específica
   const tileClassName = ({ date, view }) => {
@@ -51,6 +59,7 @@ function EventCalendar() {
   };
 
   return (
+<<<<<<< HEAD
     <div className='calendar-code'>
       <div className='calendar'>
         <Calendar
@@ -75,6 +84,28 @@ function EventCalendar() {
           </div>
         )}
       </div>
+=======
+    <div className='Calendar'>
+      <Calendar 
+        onChange={handleDateClick} 
+        value={value} 
+        tileClassName={tileClassName}
+        tileContent={({ date, view }) => (
+          view === 'month' && events[date.toISOString().split('T')[0]] ? (
+            <div
+              onMouseEnter={() => handleDateHover(date)}
+              onMouseLeave={() => setHoveredEvent('')}
+            />
+          ) : null
+        )}
+      />
+      {eventDescription && (
+        <div className="event-description">
+          <h2>Descripción del evento:</h2>
+          <p>{eventDescription}</p>
+        </div>
+      )}
+>>>>>>> 4b23862d114a2c8b6e86984f0eb136e301e878e5
       {hoveredEvent && (
         <div className="event-hover">
           <p>{hoveredEvent}</p>

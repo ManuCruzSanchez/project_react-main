@@ -20,5 +20,9 @@ function App() {
     </>
   )
 }
+<<<<<<< HEAD
 
+=======
+// asdasdasdasd
+>>>>>>> 4b23862d114a2c8b6e86984f0eb136e301e878e5
 export default App
