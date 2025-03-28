@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+<channel>
+  <title>Juegos disponibles</title>
+  <link>https://duelbar.web.app/</link>
+  <description>Duel Bar</description>
+  <item>
+    <title>Tekken 8</title>
+    <link>https://duelbar.web.app/List#item-1</link>
+    <description>asdasd.</description>
+  </item>
+ <item>
+    <title>Street Fighter 6</title>
+    <link>https://duelbar.web.app/List#item-2</link>
+    <description>asdasd.</description>
+  </item>
+  <item>
+    <title>Guilty Gear Strive</title>
+    <link>https://duelbar.web.app/List#item-3</link>
+    <description>asdasd.</description>
+  </item>
+</channel>
+
+</rss> 

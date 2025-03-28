@@ -1,26 +1,18 @@
 import Header from "../../components/header/Header"
 import Footer from "../../components/footer/Footer"
-import GamesList from "../../assets/games.json"
+import GameList from "../../components/game-list/GameList";
+
 
 const myArray = ['1','2', '3'];
 
 function List() {
-  console.log(GamesList)
+  console.log(GameList)
   return (
     <>
       <Header />
-      <p>
-        pagina LIST
-        </p>
-        <ul>
-        {GamesList.GamesList.map((juego) => (
-          <li key={juego.id}>
-            <h2>{juego.nombre}</h2>
-            <p><strong>Desarrollador:</strong> {juego.desarrollador}</p>
-            <p><strong>Descripción:</strong> {juego.descripcion}</p>
-          </li>
-        ))}
-      </ul>
+              
+      <GameList />
+
       <Footer />
     </>
   )
