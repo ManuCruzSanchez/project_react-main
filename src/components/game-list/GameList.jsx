@@ -14,7 +14,8 @@ function GameList() {
           key: key,
           name: data.name,
           develop: data.develop,
-          description: data.description
+          description: data.description,
+          imageUrl: data.imageUrl
         });
       });
       setGameList([...allGameList]);
@@ -30,15 +31,16 @@ function GameList() {
 
   return (
     <>
-      <ul>
+      <div>
         {
           gameList.map(d => {
             return (
-              <li id={`item-${d.key}`}>{d.name} - {d.develop} - {d.description}</li> 
+              <div id={`item-${d.key}`}>{d.name} - {d.develop} - {d.description}
+              <img src={d.imageUrl} alt=""/></div> 
             )
           })
         }
-      </ul>
+      </div>
 
     </>
   )
