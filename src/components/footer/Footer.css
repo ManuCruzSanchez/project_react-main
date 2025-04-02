@@ -2,7 +2,7 @@
 
 .footer-back {
     background-color: crimson;
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     justify-content: center;
 
