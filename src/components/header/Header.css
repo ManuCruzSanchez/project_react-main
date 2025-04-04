@@ -17,7 +17,7 @@ h1{
   text-align: left;
   padding-left: 6%;
   font-family: "stf";
-  font-size: 300%;
+  font-size: 325%;
   letter-spacing: 15%;
   width: 100%;
 }
@@ -41,10 +41,12 @@ header ul li{
   list-style: none;
   text-align: right;
   padding: 0 2vw;
-
+  width: auto;
+  font-size: 175%;
+  text-decoration: none;
 }
 
-
-#MenuButton{
-  width: 50px;
+.hLink{
+  font-family: "stf";
+  text-decoration: none;
 }

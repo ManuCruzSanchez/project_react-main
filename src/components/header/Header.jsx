@@ -7,17 +7,17 @@ function Header() {
 			<h1 className="header-p">DUEL BAR</h1>
 			<nav className="header-nav">
 				<ul>
-					<li>
-						<NavLink to="/">Inicio</NavLink>
+					<li className='right'>
+						<NavLink className='hLink' to="/">Inicio</NavLink>
 					</li>
 					<li className='right'>
-						<NavLink to="/List">Lista</NavLink>
+						<NavLink className='hLink' to="/List">Juegos</NavLink>
 					</li>
 					<li className='right'>
-						<NavLink to="/Menu">Menú</NavLink>
+						<NavLink className='hLink' to="/Menu">Menu</NavLink>
 					</li>
 					<li className='right'>
-						<NavLink to="/Users">Usuarios</NavLink>
+						<NavLink className='hLink' to="/Users">Usuarios</NavLink>
 					</li>
 				</ul>
 			</nav>
