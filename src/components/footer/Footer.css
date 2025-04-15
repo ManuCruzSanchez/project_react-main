@@ -1,0 +1,20 @@
+
+
+.footer-back {
+    background-color: crimson;
+    /* position: fixed; */
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-p {
+    text-align: center;
+
+}
+.footer-li {
+    list-style: none;
+    margin-bottom: 0.5%;
+}
+

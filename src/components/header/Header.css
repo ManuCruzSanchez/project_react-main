@@ -1,0 +1,52 @@
+@font-face {
+  font-family: stf;
+  src: url("../../assets/SSF4_ABUKET.otf") format("opentype");
+}
+
+header{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+h1{
+  text-align: left;
+  padding-left: 9%;
+  font-family: "stf";
+  font-size: 425%;
+  letter-spacing: 15%;
+  width: 100%;
+}
+nav{
+  display: flex;
+  padding-right: 6%;
+  width: 100%;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+header ul li{
+  list-style: none;
+  text-align: right;
+  padding: 0 2vw;
+  width: auto;
+  font-size: 175%;
+  text-decoration: none;
+}
+
+.hLink{
+  font-family: "stf";
+  text-decoration: none;
+}

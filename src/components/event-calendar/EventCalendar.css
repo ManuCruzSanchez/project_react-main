@@ -1,0 +1,40 @@
+
+.calendar-code{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 3%;
+
+}
+
+.calendar{
+  margin-left: 22vw;
+  padding-bottom: 5%;
+}
+
+.events{
+  margin-left: 8vw;
+  margin-right: 6vm;
+}
+
+.events-panel{
+  text-align: start;
+  
+}
+
+.event-description,
+.event-hover{
+  margin-top: 20px;
+  
+  padding: 5px 20px 5px 20px; /*top - right - bottom - left */
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: block;
+  max-width: 500px;
+}
+
+.highlight {
+  background-color: crimson; /* Color fondo */
+  color: white; /* Color numero */
+}
