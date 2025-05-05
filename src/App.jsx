@@ -3,6 +3,10 @@ import "./index.css"
 import Home from './pages/home/Home'
 import List from './pages/list/List'
 import Menu from './pages/menu/Menu'
+import Users from "./pages/users/Users"
+import Rss from './pages/rss/Rss'
+import Terms from './pages/terms/Terms'
+import Privacy from './pages/privacy/Privacy'
 
 function App() {
 
@@ -14,15 +18,14 @@ function App() {
           <Route path="/Home" element={<Home />} />
           <Route path="/Menu" element={<Menu />} />
           <Route path="/List" element={<List />} />
-          
+          <Route path='/Users' element={<Users />} />
+          <Route path="/Rss" element={<Rss />} />
+          <Route path="/Terms" element={<Terms />} />
+          <Route path="/Privacy" element={<Privacy />} />
         </Routes>
       </BrowserRouter>
     </>
   )
 }
-<<<<<<< HEAD
 
-=======
-// asdasdasdasd
->>>>>>> 4b23862d114a2c8b6e86984f0eb136e301e878e5
 export default App
