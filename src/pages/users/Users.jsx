@@ -1,6 +1,6 @@
-
-import Footer from "../../components/footer/Footer"
 import Header from "../../components/header/Header"
+import Footer from "../../components/footer/Footer"
+import UserList from "../../components/user-list/UserList"
 import './Users.css'
 
 function Users() {
@@ -15,6 +15,7 @@ function Users() {
                 <p>agregar formulario</p>
                 <p className="pagetext">Aquí tienes la lista de los jugadores registrados:</p>
                 <p>agregar lista de firebase "USUARIOS"</p>
+                <UserList />
             </div>
           </div>
         </section>

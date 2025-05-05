@@ -1,6 +1,6 @@
-import EventCalendar from "../../components/event-calendar/EventCalendar"
-import Footer from "../../components/footer/Footer"
 import Header from "../../components/header/Header"
+import Footer from "../../components/footer/Footer"
+import EventCalendar from "../../components/event-calendar/EventCalendar"
 import './Home.css';
 
 function Home() {
