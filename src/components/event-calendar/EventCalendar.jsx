@@ -8,15 +8,12 @@ function EventCalendar() {
   const [hoveredEvent, setHoveredEvent] = useState(''); // Para mostrar el evento al hacer hover
   const [eventDescription, setEventDescription] = useState(''); // Para mostrar el evento al hacer clic
 
-  // Fechas y descripciones de los eventos
+  // Dates & descriptions events
   const events = {
     '2025-04-05': 'Evento 1 de prueba ahi de puta madre socio deluxe defenitive edition New Funky mode & Knuckles',
     '2025-04-10': 'Torneo de Tekken 8 | 11:00 - 20:00 | Premio desde top 8',
     '2025-04-07': 'Oferta 3x2 en bebidas'
   };
-
-  //Hola develop
-
 
   // Función para agregar clase a la fecha específica
   const tileClassName = ({ date, view }) => {

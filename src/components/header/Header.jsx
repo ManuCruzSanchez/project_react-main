@@ -14,9 +14,6 @@ function Header() {
 						<NavLink className='hLink' to="/List">Juegos</NavLink>
 					</li>
 					<li className='right'>
-						<NavLink className='hLink' to="/Menu">Menu</NavLink>
-					</li>
-					<li className='right'>
 						<NavLink className='hLink' to="/Users">Usuarios</NavLink>
 					</li>
 				</ul>

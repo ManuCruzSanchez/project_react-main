@@ -23,7 +23,6 @@ function List() {
               <GameList />
             </div>
           </div>
-          <p className="bottomspace">esto no lo leas, por qué lo lees???</p>
         </div>
 
       </section> 

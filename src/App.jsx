@@ -2,7 +2,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import "./index.css"
 import Home from './pages/home/Home'
 import List from './pages/list/List'
-import Menu from './pages/menu/Menu'
 import Users from "./pages/users/Users"
 import Rss from './pages/rss/Rss'
 import Terms from './pages/terms/Terms'
@@ -16,7 +15,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
-          <Route path="/Menu" element={<Menu />} />
           <Route path="/List" element={<List />} />
           <Route path='/Users' element={<Users />} />
           <Route path="/Rss" element={<Rss />} />

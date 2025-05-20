@@ -9,7 +9,7 @@ function Users() {
       <Header />
         <section>
           <div className="background">
-            <div>
+            <div className="foward">
               <h1>Jugadores locales</h1>
                 <p className="pagetext">En esta página puedes introducir tu nombre y juego insignia, y de esta forma ser visible a demás jugadores para poder encontar oponentes más facilmente. Una vez estés en el local, bastará con preguntar por ellos y, ¡A LUCHAR!</p>
                 <p>agregar formulario</p>

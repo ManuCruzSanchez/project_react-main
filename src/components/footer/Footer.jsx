@@ -16,7 +16,6 @@ function Footer() {
                     <p className="footer-p">
                         <NavLink to="/">Inicio</NavLink> | 
                         <NavLink to="/List"> Lista</NavLink> |
-                        <NavLink to="/Menu"> Menú</NavLink> |
                         <NavLink to="/Users"> Usuarios</NavLink> |
                         <NavLink to="/Rss"> RSS</NavLink>
                     </p>
