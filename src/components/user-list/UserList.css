@@ -1,0 +1,90 @@
+.user-form-container {
+  display: flex;
+  justify-content: center; 
+  margin: 20px 0; 
+}
+
+#user-form {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px; 
+  width: 500px;
+  padding-bottom: 2%;
+}
+
+.form-button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.form-buttom{
+    width: 125px;
+    justify-content: center;
+}
+
+.rounded-input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f0f7fc;
+}
+
+.head-user-info{
+  margin-bottom: 10px;
+  border: 3px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f0f7fc;
+  display: grid;
+  grid-template-columns: 370px 370px 500px; /* Spaces between titles */
+ }
+
+.title-user-info{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.user-info {
+  display: grid;
+  grid-template-columns: 350px 350px 200px; /* Spaces between texts */
+  gap: 20px;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 992px) {
+  #user-form {
+    width: 70%;
+  }
+
+  .head-user-info {
+    grid-template-columns: 200px 200px 200px; /* De 3 a 2 columnas */
+  }
+
+  .user-info {
+    grid-template-columns: 180px 180px 100px; /* De 3 a 2 columnas */
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .head-user-info {
+    grid-template-columns: 150px 150px 150px; /* De 3 a 2 columnas */
+    font-size: 2;
+  }
+
+  .user-info {
+    grid-template-columns: 130px 130px 100px; /* De 3 a 2 columnas */
+    font-size: 1rem;
+  }
+}

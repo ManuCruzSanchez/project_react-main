@@ -5,7 +5,7 @@
 
 header{
   padding-top: 2%;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
   width: 100%;
   background-color: crimson;
   display: flex;
@@ -49,4 +49,38 @@ header ul li{
 .hLink{
   font-family: "stf";
   text-decoration: none;
+}
+
+@media only screen and (max-width: 992px){
+  h1 {
+    padding-left: 5%;
+    font-size: 300%;
+    letter-spacing: 10%;
+  }
+
+  header ul li {
+    font-size: 150%;
+    padding: 0 1.5vw;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  h1 {
+    padding-left: 4%;
+    font-size: 250%;
+    letter-spacing: 5%;
+  }
+
+  nav {
+    align-items: flex-end;
+    padding-right: 4%;
+  }
+
+  header ul {
+    align-items: flex-end;
+  }
+
+  header ul li {
+    font-size: 100%;
+  }
 }

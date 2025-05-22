@@ -1,25 +1,48 @@
-body{
+body {
     background-color: crimson;
 }
 
-section{
+section {
     background-color: aliceblue;
     margin: auto;
     width: 90%;
 }
 
-.background{
+.background {
     padding-bottom: 5%;
 }
 
-.foward{
+.foward {
     padding-top: 2%;
-
     padding-right: 5%;
     padding-left: 5%;
 }
 
-.pagetext{
+.pagetext {
     font-size: 1.5rem;
     padding-bottom: 4%;
-}    
+}
+
+@media only screen and (max-width: 992px) {
+    .foward {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .pagetext {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .foward {
+        padding-top: 4%;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .pagetext {
+        font-size: 1.1rem;
+        padding-bottom: 3%;
+    }
+}

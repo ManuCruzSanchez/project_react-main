@@ -30,7 +30,7 @@ function GameList() {
 
   return (
     <>
-      <div>
+      <div className="list">
         {
           gameList.map(d => {
             return (
@@ -40,7 +40,6 @@ function GameList() {
           })
         }
       </div>
-        
     </>
   )
 }
