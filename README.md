@@ -1,6 +1,7 @@
 # About the proyect
 
-In this React project I decided to make a page themed on a (fictional) bar where you can play and compete with other customers in fighting games. The page has:
+In this React project I decided to make a page themed on a (fictional) bar where you can play and compete with other customers in fighting games. If you want visit the page, clic in the link: https://duelbar.web.app
+The page has:
 
 ## Home
 
