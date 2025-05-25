@@ -7,11 +7,13 @@ import Rss from './pages/rss/Rss'
 import Terms from './pages/terms/Terms'
 import Privacy from './pages/privacy/Privacy'
 
-function App() {
 
+function App() {
+  
   return (
     <>
       <BrowserRouter>
+        <meta name="viewport" content="width=device-width" />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
